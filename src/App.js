@@ -18,6 +18,10 @@ function App() {
         >
           Learn React
         </a>
+        <label class="switch">
+            <input type="checkbox" />
+            <span class="slider round" />
+          </label>
       </header>
     </div>
   );
