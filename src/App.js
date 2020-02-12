@@ -27,13 +27,14 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Click para cambiar el tema</p>
-        <label>
+        <p>Click the switch to toggle themes</p>
+        <label class="switch">
           <input
             type="checkbox"
             defaultChecked={checked}
             onChange={() => toggleThemeChange()}
           />
+          <span class="slider round" />
         </label>
       </header>
     </div>
