@@ -7,6 +7,7 @@ const App = () => {
     localStorage.getItem("theme") === "dark" ? true : false
   );
 
+  //It’s not the count variable that somehow changes inside an “unchanging” effect. It’s the effect function itself that’s different on every render.
   useEffect(() => {
     document
       .getElementsByTagName("HTML")[0]
